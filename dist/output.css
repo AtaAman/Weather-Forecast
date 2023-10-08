@@ -550,6 +550,10 @@ video {
   margin-top: 30px;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -566,12 +570,12 @@ video {
   height: 130px;
 }
 
-.h-\[20px\] {
-  height: 20px;
+.h-\[15px\] {
+  height: 15px;
 }
 
-.h-\[28px\] {
-  height: 28px;
+.h-\[18px\] {
+  height: 18px;
 }
 
 .h-\[38px\] {
@@ -622,14 +626,19 @@ video {
   justify-content: space-between;
 }
 
+.gap-x-1 {
+  -moz-column-gap: 0.25rem;
+       column-gap: 0.25rem;
+}
+
 .gap-x-10 {
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
 }
 
-.gap-x-2 {
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
+.gap-x-5 {
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
 }
 
 .rounded-\[25px\] {
@@ -644,19 +653,44 @@ video {
   border-radius: 0.5rem;
 }
 
-.bg-indigo-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(49 46 129 / var(--tw-bg-opacity));
-}
-
 .bg-sky-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(2 132 199 / var(--tw-bg-opacity));
 }
 
+.bg-sky-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 74 110 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-sky-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(125 211 252 / var(--tw-bg-opacity));
+}
+
+.bg-sky-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(56 189 248 / var(--tw-bg-opacity));
+}
+
+.bg-indigo-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(129 140 248 / var(--tw-bg-opacity));
+}
+
+.bg-indigo-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(79 70 229 / var(--tw-bg-opacity));
+}
+
+.bg-indigo-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(67 56 202 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -671,8 +705,8 @@ video {
   text-align: center;
 }
 
-.text-\[15px\] {
-  font-size: 15px;
+.text-\[12px\] {
+  font-size: 12px;
 }
 
 .text-\[18px\] {
@@ -703,6 +737,26 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.shadow-sky-950 {
+  --tw-shadow-color: #082f49;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-sky-500 {
+  --tw-shadow-color: #0ea5e9;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-sky-900 {
+  --tw-shadow-color: #0c4a6e;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-indigo-900 {
+  --tw-shadow-color: #312e81;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 @media (min-width: 768px) {
   .md\:h-\[550px\] {
     height: 550px;
@@ -711,4 +765,8 @@ video {
   .md\:w-\[450px\] {
     width: 450px;
   }
+}
+
+#details{
+  display: none;
 }
